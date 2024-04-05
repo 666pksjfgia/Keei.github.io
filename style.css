@@ -60,6 +60,18 @@ li,a,button{
     width: 100px;  /* 或你希望的任何尺寸 */
     object-fit: cover; /* 确保图片不会被拉伸或压缩 */
 }
-
+.author .information_box
+{
+    display: flex;
+    justify-content: center; /* 水平居中 */
+    align-items: center; /* 如果你也想在垂直方向上居中，可以加上这一行 */
+    flex-wrap: wrap; /* 允许内容换行，以适应不同屏幕尺寸 */
+}
+.author .information
+{
+    width: 30px;  /* 或你希望的任何尺寸 */
+    object-fit: cover; /* 确保图片不会被拉伸或压缩 */
+    margin:20px;
+}
 
 
