@@ -38,11 +38,10 @@ nav a.active {
     margin-top: 80px;
     background-color: transparent;
     height: 300px;
+    text-align: center;
 }
 .content .author_photo
 {
-    display: block;
-    margin: auto;
     border-radius: 50%;
     border: 2px solid gray;
     width: 100px;  /* 或你希望的任何尺寸 */
