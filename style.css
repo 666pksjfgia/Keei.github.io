@@ -80,8 +80,8 @@ nav a.active {
     color: gray;
     text-align: center;
     background-color: red;
-    margin-left: 200px;
-    margin-right: 200px;
+    margin-left: 10%; /* 设置左边距为父容器宽度的10% */
+    margin-right: 10%; /* 设置右边距为父容器宽度的10% */
 }
 
 
