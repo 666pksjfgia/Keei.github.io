@@ -9,31 +9,34 @@
 </head>
 <body>
 
+
 <nav>
-    <ul class="nav_links">
-        <li><a href="#Home" class="active">Home</a></li>
-        <li><a href="content/Blog/_index.html">Blog</a></li>
-        <li><a href="content/Project/_index.html">Project</a></li>
-    </ul>
+    <a href="index.html" class="active">Home</a>
+    <a href="content/Blog/_index.html">Blog</a>
+    <a href="content/Project/_index.html">Project</a>
+    <a href="content/Code/_index.html">Code</a>
+    <a href="content/Achievement/_index.html">Achievement</a>
 </nav>
-<div class="author">
+
+
+<div class="content">
     <img src="src/author.jpg" alt="" class="author_photo">
+    <div class="introduction">
+        <p class="name">Keei</p><br>
+        <p class="details">Undergraduate student in Computer Science and Technology from CUG</p><br>
+    </div>
     <div class="information_box">
         <a href="https://github.com/666pksjfgia" target="_blank" rel="noopener noreferrer" title="GitHub">
             <img src="src/github.svg" alt="GitHub" class="information">
         </a>
         <a href="#" target="_blank" rel="noopener noreferrer" title="Email">
-            <img src="src/email.svg" alt="Email" class="information">
+            <img src="src/email.svg" alt="Email" class="information" onclick="sendEmail()">
         </a>
-        <a href="#" target="_blank" rel="noopener noreferrer" title="Resume">
+        <a href="src/resume.pdf" target="_blank" rel="noopener noreferrer" title="Resume">
             <img src="src/resume.svg" alt="Resume" class="information">
         </a>
     </div>
     <hr>
-    <div class="introduction">
-        <p class="name">Keei</p><br>
-        <p class="details">Undergraduate student in Computer Science and Technology from CUG</p><br>
-    </div>
 </div>
 
 <script src="script.js"></script>

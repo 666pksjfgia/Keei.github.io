@@ -1,7 +1,16 @@
-// 当页面加载完毕时
-window.onload = function() {
-    // 直接设置URL的hash来跳转到Home部分
-    window.location.hash = "Home";
-};
+function sendEmail() {
+    // 收件人邮箱地址
+    var recipient = "mikemilklzy666@gmail.com";
+    // 主题
+    var subject = "";
+    // 邮件正文
+    var body = "";
+
+    // 生成邮件链接
+    var mailtoLink = "mailto:" + recipient + "?subject=" + encodeURIComponent(subject) + "&body=" + encodeURIComponent(body);
+
+    // 打开邮件客户端
+    window.location.href = mailtoLink;
+}
 
 

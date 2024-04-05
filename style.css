@@ -3,55 +3,43 @@ body {
     padding: 0;
     font-family: Arial, sans-serif;
 }
-li,a,button{
+a,button{
     font-family: "Montserrat",sans-serif;
     font-weight: 500;
-    font-size: 16px;
+    font-size: 14px;
     color: black;
     text-decoration: none;
 }
-.nav_links {
-    background-color: transparent;
-    padding: 10px 20px;
-    text-align: center;
+nav {
+    width: 100%; /* Add this */
+    background-color: whitesmoke;
+    padding: 10px 0;
     list-style: none;
-    margin-top: 0;
-    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    position: fixed;
+    top:0;
+    text-align: center;
 }
-.nav_links li {
-    margin: 0 10px;
+nav a {
+    margin: 0 20px;
     display: inline-block;
 }
-.nav_links li:hover {
+nav a:hover {
     text-decoration: underline;
 }
-.nav_links a.active {
+nav a.active {
     text-decoration: underline;
 }
 
 
-.author
+.content
 {
+    width: 100%; /* Add this */
+    margin-top: 80px;
     background-color: transparent;
     height: 300px;
 }
-.author .name
-{
-    font-weight: bold;
-    font-family: "Montserrat",sans-serif;
-    font-size: 18px;
-    color: black;
-    text-align: center;
-}
-.author .details
-{
-    margin-top: -30px;
-    font-family: "Montserrat",sans-serif;
-    font-size: 12px;
-    color: gray;
-    text-align: center;
-}
-.author_photo
+.content .author_photo
 {
     display: block;
     margin: auto;
@@ -60,18 +48,38 @@ li,a,button{
     width: 100px;  /* 或你希望的任何尺寸 */
     object-fit: cover; /* 确保图片不会被拉伸或压缩 */
 }
-.author .information_box
+.content .information_box
 {
     display: flex;
     justify-content: center; /* 水平居中 */
     align-items: center; /* 如果你也想在垂直方向上居中，可以加上这一行 */
     flex-wrap: wrap; /* 允许内容换行，以适应不同屏幕尺寸 */
 }
-.author .information
+.content .information
 {
     width: 30px;  /* 或你希望的任何尺寸 */
     object-fit: cover; /* 确保图片不会被拉伸或压缩 */
-    margin:20px;
+    margin-left:20px;margin-right:20px;
+    margin-top:0;
 }
+
+
+.content .name
+{
+    font-weight: bold;
+    font-family: "Montserrat",sans-serif;
+    font-size: 18px;
+    color: black;
+    text-align: center;
+}
+.content .details
+{
+    margin-top: -30px;
+    font-family: "Montserrat",sans-serif;
+    font-size: 12px;
+    color: gray;
+    text-align: center;
+}
+
 
 
