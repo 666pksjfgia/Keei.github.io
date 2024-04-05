@@ -25,6 +25,10 @@ li,a,button{
 .nav_links li:hover {
     text-decoration: underline;
 }
+.nav_links a.active {
+    text-decoration: underline;
+}
+
 
 .author
 {
